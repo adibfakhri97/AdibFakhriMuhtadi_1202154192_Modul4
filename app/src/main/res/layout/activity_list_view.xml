@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adibf.adibfakhrimuhtadi_1202154192_m4.ListView">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="List Nama Mahasiswa"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/judul"
+        android:layout_alignLeft="@+id/judul"
+        android:layout_alignRight="@+id/judul"
+        android:layout_alignStart="@+id/judul"
+        android:layout_below="@+id/judul"
+        android:text="Start"
+        android:onClick="Mulai"/>
+
+    <ListView
+        android:id="@+id/listlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/start"
+        android:layout_alignLeft="@+id/start"
+        android:layout_alignRight="@+id/start"
+        android:layout_alignStart="@+id/start"
+        android:layout_below="@+id/start"
+        android:saveEnabled="true"></ListView>
+
+
+
+</RelativeLayout>
